@@ -1,2 +1,5 @@
-<p>Request'deki parametrelere g&ouml;re instance factory dinamik olarak instance oluşturur.</p>
-<p><a href="http://localhost:XXXXX/Print ">http://localhost:XXXXX/Print </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&gt; BasePrintManager'dan &ouml;rnek oluşturur.<br /><a href="http://localhost:XXXXX/Print?Device=Xerox ">http://localhost:XXXXX/Print?Device=Xerox </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&gt; XeroxPrintManager'dan &ouml;rnek oluşturur.<br />http://localhost:XXXXX/Print?Device=KonicaMinolta &nbsp; &nbsp; &nbsp; &nbsp;=&gt; KonicaMinoltaManager'dan &ouml;rnek oluşturur.</p>
+<p>Request&#39;deki parametrelere g&ouml;re instance factory dinamik olarak instance oluşturur.</p>
+
+<p>http://localhost:XXXXX/Print &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&gt; BasePrintManager&#39;dan &ouml;rnek oluşturur.<br />
+http://localhost:XXXXX/Print?Device=Xerox &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&gt; XeroxPrintManager&#39;dan &ouml;rnek oluşturur.<br />
+http://localhost:XXXXX/Print?Device=KonicaMinolta &nbsp; &nbsp; &nbsp; &nbsp;=&gt; KonicaMinoltaManager&#39;dan &ouml;rnek oluşturur.</p>
